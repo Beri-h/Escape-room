@@ -1,0 +1,25 @@
+<html>
+<script>
+function godkend()
+{
+  g=document.getElementById("sprg").value;
+  if(g=="Claus")
+  {
+    alert("Hurra!");
+    window.open("side2.html");
+  }
+}
+</script>
+
+<h1>Velkommen til BERIS ESCAPE-ROOM<i>POWER TIL MIG</i></h1>
+<p>
+Du er trådt ind igennem OEG's svingdør. Skolen er proppet med elever, både gamle<br>
+og nye. En pige kommer dig til møde. Hun præsenterer sig selv som Beri fra 1.p.<br>
+"Velkommen til OEG, før du kan gå på din opdagelsesrejse, har jeg et spørgsmål.<br>
+Hvem er den sejeste lærer på skolen?"
+<p>
+<form>
+<input type="text" id="sprg" name="lname" value="0">
+<button onclick="godkend()">Send svar!</button>
+</form>
+</html>
